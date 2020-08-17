@@ -1,0 +1,35 @@
+{
+  "name": "cordova-plugin-play-installreferrer",
+  "version": "1.0.0",
+  "description": "Cordova plugin to retrieve referral content from Google play using Google Play Store's Install Referrer API.(Android)",
+  "types": "./types/cordova-plugin-play-installreferrer.d.ts",
+  "scripts": {
+    "release": "standard-version"
+  },
+  "cordova": {
+    "id": "cordova-plugin-play-installreferrer",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swayangjit/cordova-plugin-play-installreferrer.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Swayangjit",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/swayangjit/cordova-plugin-play-installreferrer/issues"
+  },
+  "homepage": "https://github.com/swayangjit/cordova-plugin-play-installreferrer#readme",
+  "devDependencies": {
+    "standard-version": "^8.0.1"
+  }
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="cordova-plugin-play-installreferrer" version="1.0.0">
+  <name> Cordova Google play Install Referrer Plugin</name>
+  <keywords> play,google play, google play install referrer, play install referrer, install referrer, play installreferrer</keywords>
+  <js-module name="installReferrer" src="www/installreferrer.js">
+    <clobbers target="installReferrer"/>
+  </js-module>
+  <platform name="android">
+    <config-file parent="/*" target="res/xml/config.xml">
+      <feature name="installReferrer">
+        <param name="android-package" value="com.swayangjit.installreferrer.InstallReferrerPlugin"/>
+        <param name="onload" value="true"/>
+      </feature>
+    </config-file>
+    <config-file parent="/*" target="AndroidManifest.xml"/>
+    <source-file src="src/android/InstallReferrerPlugin.java" target-dir="src/com/swayangjit/installreferrer"/>
+    <source-file src="src/android/InstallReferrerListener.java" target-dir="src/com/swayangjit/installreferrer"/>
+    <source-file src="src/android/PlayStoreInstallReferrerImpl.java" target-dir="src/com/swayangjit/installreferrer"/>
+    <preference default="1.1" name="INSTALL_REFERRER_VERSION" />
+    <framework src="com.android.installreferrer:installreferrer:$INSTALL_REFERRER_VERSION" />
+  </platform>
+</plugin>

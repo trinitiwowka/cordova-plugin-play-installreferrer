@@ -76,6 +76,7 @@ public class PlayStoreInstallReferrerImpl implements InstallReferrerStateListene
             referrerMap.put("clickTs", Long.toString(response.getReferrerClickTimestampSeconds()));
             referrerMap.put("installTs", Long.toString(response.getInstallBeginTimestampSeconds()));
             referrerMap.put("isInstantExperienceLaunched", Boolean.toString(response.getGooglePlayInstantParam()));
+            referrerMap.put("originalReferrer", response.getInstallReferrer());
         }
         if (this.mInstallReferrerListener != null) {
             this.mInstallReferrerListener.onHandleReferrer(referrerMap);

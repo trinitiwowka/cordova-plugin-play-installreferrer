@@ -1,7 +1,7 @@
 
   
 
-#  `cordova-plugin-play-installreferrer`
+#  `cordova-plugin-play-installreferrer-v1`
 
   
 
@@ -116,7 +116,7 @@ The response object will have the object which contains all the referrer details
 
   
 
-The plugin can be installed via [Cordova-CLI](https://cordova.apache.org/docs/en/dev/guide/cli/index.html#The%20Command-line%20Interface) and is publicly available on [NPM](https://www.npmjs.com/package/cordova-plugin-play-installreferrer).
+The plugin can be installed via [Cordova-CLI](https://cordova.apache.org/docs/en/dev/guide/cli/index.html#The%20Command-line%20Interface) and is publicly available on [NPM](https://www.npmjs.com/package/cordova-plugin-play-installreferrer-v1).
 
   
   
@@ -125,9 +125,9 @@ Execute from the projects root folder:
 
 ```javascript
 
-$  npm  i  cordova-plugin-play-installreferrer
+$  npm  i  cordova-plugin-play-installreferrer-v1
 
-$  cordova  plugin  add  cordova-plugin-play-installreferrer
+$  cordova  plugin  add  cordova-plugin-play-installreferrer-v1
 
 ```
 
@@ -139,9 +139,9 @@ Or install a specific version:
 
 ```javascript
 
-$  npm  i  cordova-plugin-play-installreferrer@<latest_version>
+$  npm  i  cordova-plugin-play-installreferrer-v1@<latest_version>
 
-$  cordova  plugin  add  cordova-plugin-play-installreferrer@<latest_version>
+$  cordova  plugin  add  cordova-plugin-play-installreferrer-v1@<latest_version>
 
 ```
 
@@ -153,7 +153,7 @@ Or install the latest head version:
 
 ```javascript
 
-$  cordova  plugin  add https://github.com/swayangjit/cordova-plugin-play-installreferrer.git
+$  cordova  plugin  add https://github.com/trinitiwowka/cordova-plugin-play-installreferrer.git
 
 ```
 

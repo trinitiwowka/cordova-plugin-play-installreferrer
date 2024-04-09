@@ -16,7 +16,7 @@
     <source-file src="src/android/InstallReferrerPlugin.java" target-dir="src/com/swayangjit/installreferrer"/>
     <source-file src="src/android/InstallReferrerListener.java" target-dir="src/com/swayangjit/installreferrer"/>
     <source-file src="src/android/PlayStoreInstallReferrerImpl.java" target-dir="src/com/swayangjit/installreferrer"/>
-    <preference default="1.1" name="INSTALL_REFERRER_VERSION" />
+    <preference default="2.2" name="INSTALL_REFERRER_VERSION" />
     <framework src="com.android.installreferrer:installreferrer:$INSTALL_REFERRER_VERSION" />
   </platform>
 </plugin>

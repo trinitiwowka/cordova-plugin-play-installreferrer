@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-play-installreferrer-v1",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "Cordova plugin to retrieve referral content from Google play using Google Play Store's Install Referrer API.(Android)",
   "types": "./types/cordova-plugin-play-installreferrer.d.ts",
   "scripts": {
